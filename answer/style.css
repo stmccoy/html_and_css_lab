@@ -1,0 +1,58 @@
+#flex, header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header, footer{
+    background-color: dodgerblue;
+    color: white;
+}
+
+header > nav > ul {
+    display: flex;
+    list-style-type: None;
+}
+
+header > nav > ul > li > a {
+    color: white;
+}
+
+
+header > nav > ul > li {
+    padding: 5px;
+}
+
+#textarea {
+    width: 99.5%;
+    height: 200px;
+}
+
+#comment-button {
+    float: right;
+}
+
+footer > p {
+    text-align: center;
+}
+
+footer {
+    height: 50px;
+}
+
+main {
+    margin:auto;
+    margin: 2%;
+}
+
+#to-flex{
+    display: flex;
+    margin: 5px;
+}
+
+#article-image{
+    height: 100px;
+}
+
+#commenter-image{
+    height: 100px;
+}
